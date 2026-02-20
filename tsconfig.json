@@ -1,0 +1,8 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "types": ["jest"]
+  },
+  "include": ["**/*.ts", "**/*.tsx", "firebase.js", "src/utils/auth.js", "src/constants/colors.js", "src/screens/Auth.jsx", "src/screens/Home.jsx", "src/screens/SplashScreen.jsx", "App.jsx"],
+  "exclude": ["**/node_modules", "**/Pods"]
+}
